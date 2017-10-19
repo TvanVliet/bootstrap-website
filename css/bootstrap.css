@@ -11,6 +11,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #C09F80;
 }
 article,
 aside,
@@ -4959,12 +4960,17 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #aaa;
+  color: #76323F;
+  background-color: #D7CEC7;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+}
+
+.jumbotron h2,
+.jumbotron .h2 {
+  color: #565656;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -6757,7 +6763,7 @@ button.close {
 
 .social {
   margin: auto;
-  width: 25%;
+  width: 15%;
 }
 
 .linkedin {
