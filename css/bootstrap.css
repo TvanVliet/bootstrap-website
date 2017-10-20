@@ -1587,6 +1587,8 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  color: #565656;
+  font-size: 18px;
 }
 @media (min-width: 768px) {
   .container {
@@ -6763,30 +6765,20 @@ button.close {
 
 .social {
   margin: auto;
-  width: 15%;
-}
-
-.linkedin {
-  height: 20px;
-  width: 92px;
-  display: inline-block;
+  width: 20%;
 }
 
 .linkedin:hover {
-  height: 21px;
-  width: 93px;
+
+    filter: blur(0.8px);
 }
 
 .github {
-  display: inline-block;
-  margin-left: 30px;
-  height: 63px;
-  width: 63px;
+  margin-left: 10%;
+
 }
 
 .github:hover {
-  /*background-image: url("../images/githubhover.png");*/
-  height: 64px;
-  width: 64px;
+  filter: blur(0.8px);
 }
 /*# sourceMappingURL=bootstrap.css.map */
