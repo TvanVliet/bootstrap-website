@@ -4976,7 +4976,7 @@ a.badge:focus {
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 200;
 }
 .jumbotron > hr {
@@ -6763,8 +6763,21 @@ button.close {
   }
 }
 
+footer {
+  background-color: #C09F80;
+  padding-top: 1.5%;
+}
+
+#revealMegaman {
+  margin-top: 3%;
+}
+
+#revealPacdude {
+  padding-bottom: 2%;
+}
+
 .social {
-  margin: auto;
+  padding-bottom: 0.8%;
   width: 20%;
 }
 
